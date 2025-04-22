@@ -1,0 +1,15 @@
+
+.product{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:1rem;
+
+}
+.product-box{
+    width: 60%;
+    float: left;
+    margin-right: 1rem;
+    box-shadow: 0 25px 50px -12px gray;
+    border-radius: 12px;
+    padding: 1rem;
+}
