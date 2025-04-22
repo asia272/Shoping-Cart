@@ -2,7 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { act } from 'react';
 
 const initialState = {
-  cart: JSON.parse(localStorage.getItem("cart")) || []  // default empty array if nothing in localStorage
+  cart: JSON.parse(localStorage.getItem("cart")) || []  
 };
 
 export const cartSlice = createSlice({
